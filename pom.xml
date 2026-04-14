@@ -65,6 +65,7 @@
     </dependencies>
 
     <build>
+        <finalName>app</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -115,9 +116,6 @@
                 </executions>
             </plugin>
         </plugins>
-    </build>
-    <build>
-        <finalName>app</finalName>
     </build>
 
 </project>
